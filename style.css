@@ -7,17 +7,16 @@ body {
     padding: 0;
 }
 
-/* For understanding style and layout, will be deleted */
-div {
-    border: 3px solid pink;
-}
-
 /* Header */
 .headercontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 160px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
 }
 .headercontainer ul {
     display: flex;
@@ -25,10 +24,12 @@ div {
     list-style: none;
     margin: 0;
     padding: 0;
-    border: 1px solid pink;
 }
 .headercontainer a {
     text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 /* Hero */
@@ -36,15 +37,22 @@ div {
     display: flex;
     justify-content: space-evenly;
     padding: 20px 160px;
+    background-color: #1f2937;
 }
 .herocontainer .herotext {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     gap: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: normal;
 }
 .herotext h1 {
     margin-bottom: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
 }
 .herocontainer button {
     width: 24%;
@@ -52,11 +60,15 @@ div {
     padding: 8px 24px;
     border: 0;
     border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: bold;
 }
 .herocontainer img {
     width: 50%;
     height: auto;
-    padding: 20px 0;
+    padding: 20px 0 20px 20px;
 }
 
 /* Information */
@@ -67,10 +79,14 @@ div {
 }
 .infocontainer h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 .infocontainer .infocard {
     display: flex;
     justify-content: space-evenly;
+    padding: 0 20px 0 20px;
 }
 .infocard .item {
     width: 150px;
@@ -87,9 +103,14 @@ blockquote {
     margin: 0;
     padding: 80px 240px;
     font-style: italic;
-    background-color: gainsboro;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
 }
 blockquote p {
+    font-size: 18px;
     font-weight: bold;
     font-style: normal;
     text-align: right;
@@ -108,6 +129,8 @@ blockquote p {
     margin: 60px 100px;
     padding: 10px 20px;
     border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 .ctaitem .ctatext {
     text-align: left;
@@ -117,15 +140,22 @@ blockquote p {
 }
 .ctatext p {
     margin-top: 4px;
+    color: #e5e7eb;
 }
 .ctaitem button {
     padding: 8px 24px;
-    border: 2px solid lightblue;
+    border: 2px solid #f9faf8;
     border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* Footer */
 .footercontainer {
     text-align: center;
     padding: 20px;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
